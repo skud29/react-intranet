@@ -25,7 +25,6 @@ class Menu extends Component {
     render() {
         return (
             <Fragment>
-                <Menu/>
                 <Navbar color="dark" dark expand="md">
                     <NavbarBrand href="/">Intranet O.D.S.</NavbarBrand>
                     <NavbarToggler onClick={this.toggle}/>
